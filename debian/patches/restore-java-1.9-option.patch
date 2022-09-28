@@ -1,0 +1,13 @@
+Description: Restores the CompilerOptions.VERSION_1_9 constant to preserve the backward compatibility
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: no
+--- a/org.eclipse.jdt.core/compiler/org/eclipse/jdt/internal/compiler/impl/CompilerOptions.java
++++ b/org.eclipse.jdt.core/compiler/org/eclipse/jdt/internal/compiler/impl/CompilerOptions.java
+@@ -221,6 +221,7 @@
+ 	public static final String VERSION_1_6 = "1.6"; //$NON-NLS-1$
+ 	public static final String VERSION_1_7 = "1.7"; //$NON-NLS-1$
+ 	public static final String VERSION_1_8 = "1.8"; //$NON-NLS-1$
++	public static final String VERSION_1_9 = "1.9"; //$NON-NLS-1$
+ 	public static final String VERSION_9 = "9"; //$NON-NLS-1$
+ 	public static final String VERSION_10 = "10"; //$NON-NLS-1$
+ 	public static final String VERSION_11 = "11"; //$NON-NLS-1$

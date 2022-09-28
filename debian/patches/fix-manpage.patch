@@ -1,0 +1,20 @@
+Description: Fixes the manpage
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: https://github.com/eclipse/eclipse.jdt.core/pull/12
+--- a/org.eclipse.jdt.core/scripts/ecj.1
++++ b/org.eclipse.jdt.core/scripts/ecj.1
+@@ -1,4 +1,4 @@
+-.TH ecj "13 March 2017"
++.TH ecj 1 "13 March 2017"
+ .LP
+ .SH NAME
+ ecj \- the eclipse JDT Batch Compiler
+@@ -19,7 +19,7 @@
+ .ul
+ Module Options
+ .sp
+-.B --add-exports \--add-modules \--add-reads \--limit-modules \-p|--module-path \--module-source-path \ --processor-module-path \--system
++.B \--add-exports \--add-modules \--add-reads \--limit-modules \-p|--module-path \--module-source-path \ --processor-module-path \--system
+ .sp
+ .ul
+ ClassPath Options
